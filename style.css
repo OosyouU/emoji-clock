@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0b1026;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#output {
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", monospace;
+    white-space: pre;
+    line-height: 1em;
+    text-align: center;
+}
+
+#output img {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+}
+
+canvas {
+    display: none;
+}
